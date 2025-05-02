@@ -13,7 +13,7 @@ gem "actionview", ">= 5.0.7.2"
 group :development, :test do
   gem 'pry'
   gem 'capybara'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 8.0.0'
   gem 'shoulda'
 end
 
